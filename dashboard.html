@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="logo">
+            <img src="dashboard_assets/kmtek.png" alt="img">
+        </div>
+        <div class="status">
+            <h2>Firmware 1</h2>
+            <h5>Online, 12-12-2021 09:00</h5>
+        </div>
+    </div>
+    <div class="content">
+        <div class="chart">
+            <div class="chart-title">
+                UV Value
+            </div>
+            <div class="chart-value"></div>
+        </div>
+        <div class="table">
+            <div class="table-title">
+                UV Table
+            </div>
+            <div id="table-value"></div>
+        </div>
+    </div>
+    <script src="dshboard.js"></script>
+</body>
+
+</html>
